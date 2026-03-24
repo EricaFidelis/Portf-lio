@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erica Fidelis | Portfólio Full Stack Focus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Quicksand', sans-serif; background: #fdfdfd; scroll-behavior: smooth; }
+        .font-title { font-family: 'Unbounded', cursive; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.5); }
+        .gradient-text { background: linear-gradient(90deg, #4f46e5, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .tech-badge { background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <header class="min-h-screen flex flex-col justify-center items-center p-6 text-center bg-gradient-to-b from-indigo-50/50 to-white">
+        <div class="max-w-4xl">
+            <div class="mb-10 flex justify-center">
+                <div class="w-40 h-40 rounded-full border-4 border-white shadow-xl overflow-hidden bg-slate-100 flex items-center justify-center">
+                    <img src="sua-foto.jpeg" alt="Erica Franco Fidelis" onerror="this.src='https://img.icons8.com/fluency/96/000000/test-account.png'; this.parentNode.style.background='#f1f5f9';" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <h1 class="font-title text-5xl md:text-7xl mb-5 leading-tight">Erica Franco <span class="gradient-text">Fidelis</span></h1>
+            <p class="text-sm font-bold text-slate-500 mb-8 tracking-widest uppercase">Várzea Paulista - SP</p>
+            
+            <p class="text-xl italic text-indigo-600 mb-12 max-w-2xl mx-auto font-medium">
+                "A tecnologia, para mim, é uma forma de usar conhecimento para criar algo que realmente ajude alguém."
+            </p>
+
+            <div class="flex flex-wrap gap-4 justify-center">
+                <a href="#projetos" class="bg-indigo-600 text-white px-8 py-4 rounded-2xl hover:bg-indigo-700 transition shadow-lg shadow-indigo-100 font-bold text-lg">Ver Projetos</a>
+                <a href="seu-curriculo.pdf" target="_blank" class="bg-white border border-slate-200 px-8 py-4 rounded-2xl hover:border-indigo-400 transition font-bold text-lg flex items-center gap-2">
+                    📄 Baixar Currículo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+        <div class="glass p-10 md:p-14 rounded-[3rem] shadow-xl shadow-indigo-50/50 border-l-8 border-indigo-500">
+            <h2 class="font-title text-2xl md:text-3xl mb-8">Minha Essência</h2>
+            <p class="text-lg leading-relaxed text-slate-700 mb-8">
+                Meu foco atual é evoluir em <strong>CSS, Python e JavaScript</strong> e aprender mais tecnologias, pois minha meta é me tornar uma profissional <strong>Full Stack</strong>. Atualmente meu coração bate forte pelo Front-end e pela capacidade de transformar dados em arte, utilidade e agilidade com automação.
+            </p>
+            <div class="flex flex-wrap gap-6 items-center justify-center md:justify-start">
+                <span class="flex items-center gap-2 font-bold text-slate-600"><span class="text-xl">🇬🇧</span> Inglês B1 Intermediário</span>
+                <span class="flex items-center gap-2 font-bold text-slate-600"><span class="text-xl">📍</span> Várzea Paulista, SP</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="font-title text-3xl md:text-4xl mb-16 text-center text-slate-800 underline decoration-pink-300 decoration-4 underline-offset-8">Projetos em Destaque</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="glass p-8 rounded-3xl md:col-span-2 lg:col-span-1 border-pink-400 bg-pink-50/30 flex flex-col h-full border-t-8">
+                <div class="flex-grow flex flex-col justify-start">
+                    <h3 class="font-title text-2xl mb-4 text-pink-600">Pet Adoption Project</h3>
+                    <p class="text-slate-700 text-sm mb-6 leading-relaxed flex-grow">
+                        Um dos meus melhores projetos. Utiliza uma narrativa imersiva para provocar empatia no usuário. Mais do que uma vitrine de animais de estimação, a plataforma foca na urgência de denúncia contra maus-tratos e na responsabilidade social. 🛠️ Tecnologias Utilizadas HTML5 : Estrutura semântica. Tailwind CSS : Estilização responsiva e moderna. JavaScript (Vanilla) : Lógica de manipulação do DOM para os pop-ups narrativos. Google Fonts : Tipografia estratégica (Unbounded & Quicksand). 📱 Responsividade O projeto foi desenvolvido com a metodologia Mobile-First, garantindo que a experiência seja impactante tanto em desktops quanto em dispositivos móveis.
+                    </p>
+                </div>
+                <div class="mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-8 text-[10px]">
+                        <span class="tech-badge bg-pink-100 text-pink-800">HTML5</span><span class="tech-badge bg-pink-100 text-pink-800">Tailwind CSS</span><span class="tech-badge bg-pink-100 text-pink-800">JavaScript</span><span class="tech-badge bg-pink-100 text-pink-800">Mobile-First</span>
+                    </div>
+                    <a href="https://ericafidelis.github.io/pet-adoption-project/" target="_blank" class="bg-pink-600 text-white font-bold text-base px-6 py-3 rounded-xl inline-block hover:bg-pink-700 transition w-full text-center">Visitar Site Ativo</a>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-3xl flex flex-col h-full hover:shadow-xl transition duration-300 border-t-8 border-indigo-200">
+                <div class="flex-grow flex flex-col justify-start">
+                    <h3 class="font-title text-xl mb-3 text-indigo-600">Lume</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed flex-grow">Site para facilitar acesso a cursos gratuitos de TI.</p>
+                </div>
+                <div class="mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="tech-badge">HTML5</span><span class="tech-badge">CSS3</span><span class="tech-badge">Social Tech</span>
+                    </div>
+                    <a href="https://ericafidelis.github.io/Lume/" target="_blank" class="font-bold underline text-sm text-indigo-600">Visitar Site</a>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-3xl flex flex-col h-full hover:shadow-xl transition duration-300 border-t-8 border-indigo-400">
+                <div class="flex-grow flex flex-col justify-start">
+                    <h3 class="font-title text-xl mb-3 text-indigo-600">Cofre de Luz</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed flex-grow">Um refúgio digital imersivo que muda de cor com o passar das horas. Tecnologia como porto seguro.</p>
+                </div>
+                <div class="mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="tech-badge">Streamlit</span><span class="tech-badge">Python</span><span class="tech-badge">UI Design</span>
+                    </div>
+                    <a href="https://ericafidelis.github.io/Cofre_de_Luz/" target="_blank" class="font-bold underline text-sm text-indigo-600">Entrar no Refúgio</a>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-3xl bg-slate-900 text-white border-none lg:col-span-2 flex flex-col hover:shadow-2xl hover:shadow-emerald-900/20 transition duration-300">
+                <div class="flex-grow">
+                    <h3 class="font-title text-2xl mb-3 text-emerald-400">WhatsApp Automation</h3>
+                    <p class="text-slate-300 text-sm mb-6 leading-relaxed">Automação corporativa para agilidade em mensagens utilizando Python. Desenvolvida para otimizar fluxos de comunicação e resolver problemas reais de agendamento e envio massivo de forma inteligente.</p>
+                </div>
+                <div class="mt-auto flex flex-col md:flex-row items-center gap-6">
+                    <div class="flex flex-wrap gap-2 text-slate-800 flex-grow">
+                        <span class="tech-badge bg-emerald-400 border-none">Python</span><span class="tech-badge bg-emerald-400 border-none">Agilidade</span><span class="tech-badge bg-emerald-400 border-none">Automação</span>
+                    </div>
+                    <a href="https://github.com/EricaFidelis/Automatiza-o-de-mensagens-WhatsApp" target="_blank" class="bg-emerald-600 text-white font-bold text-base px-6 py-3 rounded-xl inline-block hover:bg-emerald-700 transition md:w-auto w-full text-center">Repositório no GitHub →</a>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:shadow-xl transition duration-300 flex flex-col h-full">
+                <div class="flex-grow flex flex-col justify-start">
+                    <h3 class="font-title text-xl mb-3">Found It</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed flex-grow">Plataforma para encontrar objetos e animais perdidos através da tecnologia.</p>
+                </div>
+                <div class="mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="tech-badge">JavaScript</span><span class="tech-badge">Logic</span>
+                    </div>
+                    <a href="https://ericafidelis.github.io/found-it/" target="_blank" class="font-bold underline text-sm">Explorar</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50 px-6 rounded-[4rem]">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="font-title text-3xl md:text-4xl mb-16 text-center text-slate-800">Cursos & <span class="gradient-text">Certificações</span></h2>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="space-y-6">
+                    <h3 class="font-title text-sm text-indigo-500 uppercase tracking-widest border-b pb-2">Desenvolvimento & IA</h3>
+                    <ul class="text-sm space-y-4 text-slate-600">
+                        <li><strong class="text-slate-800">Alura:</strong> Criando Projetos Artísticos com JS & Criatividade com Códigos</li>
+                        <li><strong class="text-slate-800">DIO:</strong> Conhecendo Python (Ambiente e Primeiros Passos)</li>
+                        <li><strong class="text-slate-800">DIO:</strong> Inteligência Artificial na Prática e Introdução à IA</li>
+                        <li><strong class="text-slate-800">Microsoft:</strong> Treinamento Power Apps</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="font-title text-sm text-pink-500 uppercase tracking-widest border-b pb-2">Indústria & Business</h3>
+                    <ul class="text-sm space-y-4 text-slate-600">
+                        <li><strong class="text-slate-800">University of London:</strong> Managing the Company of the Future</li>
+                        <li><strong class="text-slate-800">LinkedIn Learning:</strong> Gestão de Projetos e Fundamentos da Indústria 4.0</li>
+                        <li><strong class="text-slate-800">SENAI:</strong> TI, Supply 4.0, Desvendando e Gestão da Indústria 4.0</li>
+                        <li><strong class="text-slate-800">Helpschool:</strong> Excel (Básico ao Avançado - Médias 9,0+)</li>
+                        <li><strong class="text-slate-800">Santander Academy:</strong> Comunicação Efetiva (8h)</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="font-title text-sm text-emerald-500 uppercase tracking-widest border-b pb-2">Conquistas & Idiomas</h3>
+                    <div class="p-4 bg-emerald-50 rounded-2xl border border-emerald-100 mb-4 flex items-center gap-3">
+                        <span class="text-2xl">🌟</span>
+                        <div>
+                            <p class="font-bold text-emerald-800 text-xs mb-1">EMBAIXADORA UNIVERSITÁRIA</p>
+                            <p class="text-emerald-700 text-sm italic leading-tight">DIO Campus Expert – Turma 15</p>
+                        </div>
+                    </div>
+                    <ul class="text-sm space-y-4 text-slate-600">
+                        <li>🥇 <strong class="text-slate-800">Medalhista de Bronze:</strong> REDASP (Redação Paulista)</li>
+                        <li>🧮 <strong class="text-slate-800">OBMEP:</strong> Participante da 2ª Fase</li>
+                        <li>🛡️ <strong class="text-slate-800">FMT Guardinha:</strong> Várzea Paulista 2023</li>
+                        <li>🇬🇧 <strong class="text-slate-800">Inglês:</strong> Certificação EF SET B1 (Intermediário)</li>
+                        <li>🌐 <strong class="text-slate-800">Idiomas:</strong> City Evolution e Fast Comp (Cursando)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-slate-900 text-white px-6 mt-16 rounded-t-[4rem]">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-title text-3xl mb-12">Vamos Conversar?</h2>
+            <div class="flex flex-col md:flex-row gap-8 justify-center items-center mb-16">
+                <a href="mailto:ericafidelis09@gmail.com" class="hover:text-indigo-400 transition underline underline-offset-8 decoration-indigo-500">ericafidelis09@gmail.com</a>
+                <span class="hidden md:block text-slate-700">|</span>
+                <a href="tel:11987540935" class="hover:text-indigo-400 transition">(11) 98754-0935</a>
+            </div>
+            <div class="flex justify-center gap-10 text-base">
+                <a href="https://linkedin.com/in/ericafrancofidelis/" target="_blank" class="hover:scale-110 hover:text-pink-300 transition">LinkedIn</a>
+                <a href="https://github.com/EricaFidelis" target="_blank" class="hover:scale-110 hover:text-pink-300 transition">GitHub</a>
+            </div>
+            <p class="mt-20 text-slate-500 text-[10px] uppercase tracking-[0.2em]">Erica Franco Fidelis © 2026 | Várzea Paulista - SP</p>
+        </div>
+    </footer>
+
+</body>
+</html>
