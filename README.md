@@ -3,9 +3,6 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para centralizar meus principais projetos de programação, automação e minhas conquistas acadêmicas e profissionais.
 
-## 🌟 Sobre Mim
-Atualmente trabalho no setor de vendas da **Prensa Jundiaí**, mas estou em plena transição de carreira para a área de Tecnologia da Informação. Sou apaixonada por Python, automação de processos e desenvolvimento Front-end com foco em experiência do usuário (UX).
-
 ## 🛠️ Tecnologias Utilizadas
 * **HTML5** & **CSS3**: Estrutura e estilização moderna.
 * **Tailwind CSS**: Framework utilitário para design responsivo e ágil.
@@ -24,11 +21,11 @@ Atualmente trabalho no setor de vendas da **Prensa Jundiaí**, mas estou em plen
 * **Embaixadora Universitária DIO** (Campus Expert - Turma 15).
 * **Medalhista de Bronze** na REDASP (Redação Paulista).
 * Certificação de Inglês **EF SET B1** (Intermediário).
-* Diversas formações em **Indústria 4.0**, **Python** e **Business Intelligence**.
+* Diversos cursos em **Indústria 4.0**, **Python** e **Business Intelligence**.
 
 ## 🚀 Como visualizar o projeto
 Você pode acessar o portfólio online através do link abaixo:
-👉 [**Ver Portfólio Online**](https://ericafidelis.github.io/NOME-DO-SEU-REPOSITORIO/)
+👉 **Ver Portfólio Online** https://ericafidelis.github.io/Portf-lio/
 *(Substitua o link acima pelo link que o GitHub Pages gerar para você)*
 
 ---
