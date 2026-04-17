@@ -26,7 +26,6 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 ## 🚀 Como visualizar o projeto
 Você pode acessar o portfólio online através do link abaixo:
 👉 **Ver Portfólio Online** https://ericafidelis.github.io/Portf-lio/
-*(Substitua o link acima pelo link que o GitHub Pages gerar para você)*
 
 ---
 🎨 Criado com dedicação por **Erica Franco Fidelis** | Várzea Paulista - SP.
